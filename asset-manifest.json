@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "//github.com/MateuszBachor/pilot/static/css/main.d47604a9.css",
-    "main.js": "//github.com/MateuszBachor/pilot/static/js/main.1d815027.js",
-    "index.html": "//github.com/MateuszBachor/pilot/index.html",
-    "main.d47604a9.css.map": "//github.com/MateuszBachor/pilot/static/css/main.d47604a9.css.map",
-    "main.1d815027.js.map": "//github.com/MateuszBachor/pilot/static/js/main.1d815027.js.map"
+    "main.css": "/pilot/static/css/main.d47604a9.css",
+    "main.js": "/pilot/static/js/main.1d815027.js",
+    "index.html": "/pilot/index.html",
+    "main.d47604a9.css.map": "/pilot/static/css/main.d47604a9.css.map",
+    "main.1d815027.js.map": "/pilot/static/js/main.1d815027.js.map"
   },
   "entrypoints": [
     "static/css/main.d47604a9.css",
