@@ -1,0 +1,35 @@
+:global(body) {
+    display: flex;
+    justify-content: center;
+  }
+
+.statList{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0;
+}
+.statistics{
+    margin-top: 100px;
+    width: 512px;
+    
+}
+.item{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(191, 188, 188);
+    padding: 34px;
+    
+}
+.label{
+    padding: 5px;
+}
+.percentage{
+    padding: 5px;
+    font-size: 26px;
+}
+.title{
+    text-align: center;
+    color:  rgb(99 98 98);
+}

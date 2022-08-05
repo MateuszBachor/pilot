@@ -14,11 +14,10 @@
     list-style-type: none;
     width: 512px;
     height: 88px;
-   
+    padding-inline-start: 0;
 }
-.stats li{
-    
-border: solid 1px rgb(224 224 224);
+.stats li{ 
+    border: solid 1px rgb(224 224 224);
     width: 170.66px;
     background: #f6f6f6;
     height: 110px;
@@ -29,6 +28,7 @@ border: solid 1px rgb(224 224 224);
     color: gray;
     
 }
+
 .description img{
     border-radius: 50%;
     width: 200px;
@@ -36,9 +36,7 @@ border: solid 1px rgb(224 224 224);
     margin-top: 80px;
     margin-bottom: 50px;
 }
-p{
-    color: gray;
-}
+
 .name{
     color: black;
     font-size: 30px;
@@ -54,5 +52,8 @@ p{
 .location{
     font-size: 21.5px;
     padding-bottom: 5px;
-
+    color: lightgray;
+}
+.tag{
+    color: lightgray;
 }
