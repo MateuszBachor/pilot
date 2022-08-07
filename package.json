@@ -2,11 +2,9 @@
   "name": "react-homework",
   "version": "0.1.0",
   "private": true,
-<<<<<<< HEAD
-  "homepage": "https://github.com/MateuszBachor/pilot",
-=======
+
   "homepage": "https://mateuszbachor.github.io/pilot/",
->>>>>>> 51d3eecc7d47a0baa56cb374db00ea1a44b45fa3
+
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
