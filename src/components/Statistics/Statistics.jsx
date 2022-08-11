@@ -22,6 +22,7 @@ import PropTypes from "prop-types";
         console.log("title is undefined")
       }
       }
+     
     return (
       <section className={styles.statistics} >
        {showTitle(title)}
@@ -29,7 +30,9 @@ import PropTypes from "prop-types";
       <ul className={styles.statList}>
       {stats.map(stats => (
         
-          <li key = {stats.id} className={styles.item} >
+          <li key = {stats.id} className={styles.item} style={{
+background:`#${Math.floor(Math.random()*16777215).toString(16)}`
+          }} >
           <span className={styles.label}>{stats.label}</span>
           <span className={styles.percentage}>{stats.percentage+ "%"}</span>
         </li>
